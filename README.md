@@ -1,11 +1,17 @@
 # `"tester"`
 
+<https://doi.org/10.32614/CRAN.package.tester>
+
+<!-- badges: start -->
+[![DOI](https://img.shields.io/badge/doi-10.32614/CRAN.package.tester-blue.svg)](https://doi.org/10.32614/CRAN.package.tester)
+<!-- badges: end -->
+
 **tester** provides human readable functions to test characteristics of some common [R](http://www.r-project.org/) objects. The main purpose behind `tester` is to help you validate objects, especially for programming and developing purposes (e.g. creating R packages)
 
 
 ## Motivation
 
-I developed `tester` to have a set of functions for testing objects in a friendly way, following the so-called [literate programming](http://www-cs-faculty.stanford.edu/~uno/lp.html) paradigm.
+I (Gaston Sanchez) developed `tester` to have a set of functions for testing objects in a friendly way, following the so-called [literate programming](http://www-cs-faculty.stanford.edu/~uno/lp.html) paradigm.
 
 Without `tester`: If you want to test if a number is positive, you would do something like this:
 ```ruby
@@ -29,11 +35,11 @@ Stable version on [CRAN](http://cran.r-project.org/web/packages/tester/index.htm
 install.packages('tester')
 ```
 
-Development version on [github](https://github.com/gastonstat/tester):
+Development version on [github](https://github.com/fbertran/tester):
 
 ```ruby
 library(devtools)
-install_github('tester', 'gastonstat')
+install_github('tester', 'fbertran')
 ```
 
 ## Some examples
