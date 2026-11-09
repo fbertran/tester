@@ -5,6 +5,13 @@
 \alias{is_numeric_matrix}
 \alias{is_string_matrix}
 \title{Is matrix}
+\usage{
+is_matrix(x)
+is_numeric_matrix(x)
+is_string_matrix(x)
+is_logical_matrix(x)
+is_not_matrix(x)
+}
 \arguments{
   \item{x}{an R object}
 }

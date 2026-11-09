@@ -5,6 +5,13 @@
 \alias{is_true}
 \alias{true_or_false}
 \title{If TRUE or FALSE}
+\usage{
+is_TRUE(x)
+is_FALSE(x)
+is_true(x)
+is_false(x)
+true_or_false(x)
+}
 \arguments{
   \item{x}{an R object}
 }

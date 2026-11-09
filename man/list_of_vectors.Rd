@@ -4,6 +4,12 @@
 \alias{list_of_string_vectors}
 \alias{list_of_vectors}
 \title{List of vectors}
+\usage{
+list_of_vectors(x)
+list_of_numeric_vectors(x)
+list_of_string_vectors(x)
+list_of_logical_vectors(x)
+}
 \arguments{
   \item{x}{an R object}
 }

@@ -15,6 +15,11 @@
 #' @aliases list_of_vectors list_of_numeric_vectors 
 #' list_of_string_vectors list_of_logical_vectors
 #' @seealso \code{\link{is_vector}}, \code{\link{list_with_vectors}}
+#' @usage
+#' list_of_vectors(x)
+#' list_of_numeric_vectors(x)
+#' list_of_string_vectors(x)
+#' list_of_logical_vectors(x)
 #' @examples
 #' a = list(1:3, letters[1:3], c(exp(1), pi), NA)
 #' b = list(1:3, c(exp(1), pi))

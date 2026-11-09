@@ -4,6 +4,12 @@
 \alias{is_string_tabular}
 \alias{is_tabular}
 \title{Is tabular}
+\usage{
+is_tabular(x)
+is_numeric_tabular(x)
+is_string_tabular(x)
+is_not_tabular(x)
+}
 \arguments{
   \item{x}{an R object}
 }

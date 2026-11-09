@@ -8,6 +8,12 @@
 #' @name is_TRUE
 #' @aliases is_TRUE is_FALSE is_true is_false true_or_false
 #' @export is_TRUE is_FALSE is_true is_false true_or_false
+#' @usage
+#' is_TRUE(x)
+#' is_FALSE(x)
+#' is_true(x)
+#' is_false(x)
+#' true_or_false(x)
 #' @examples
 #' is_true(TRUE)
 #' is_true(FALSE)

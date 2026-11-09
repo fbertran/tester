@@ -13,6 +13,12 @@
 #' is_factor_dataframe is_not_dataframe
 #' @export is_dataframe is_numeric_dataframe is_string_dataframe
 #' is_factor_dataframe is_not_dataframe
+#' @usage
+#' is_dataframe(x)
+#' is_numeric_dataframe(x)
+#' is_string_dataframe(x)
+#' is_factor_dataframe(x)
+#' is_not_dataframe(x)
 #' @examples
 #' is_dataframe(iris) # TRUE
 #' is_dataframe(1:10) # FALSE

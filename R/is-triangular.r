@@ -11,6 +11,10 @@
 #' @name is_triangular_matrix
 #' @aliases is_lower_triangular is_upper_triangular is_triangular_matrix
 #' @export is_lower_triangular is_upper_triangular is_triangular_matrix
+#' @usage
+#' is_lower_triangular(x, diag = FALSE)
+#' is_upper_triangular(x, diag = FALSE)
+#' is_triangular_matrix(x, diag = FALSE)
 #' @examples
 #' some_matrix = matrix(1:9, 3, 3)
 #' lower_matrix <- upper_matrix <- some_matrix

@@ -12,6 +12,11 @@
 #' @name is_tabular
 #' @aliases is_tabular is_numeric_tabular is_string_tabular is_not_tabular
 #' @export is_tabular is_numeric_tabular is_string_tabular is_not_tabular
+#' @usage
+#' is_tabular(x)
+#' is_numeric_tabular(x)
+#' is_string_tabular(x)
+#' is_not_tabular(x)
 #' @examples
 #' A = matrix(1:10, 5, 2)
 #' B = matrix(letters[1:10], 5, 2)

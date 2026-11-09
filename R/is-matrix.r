@@ -12,6 +12,12 @@
 #' is_not_matrix
 #' @export is_matrix is_numeric_matrix is_string_matrix is_logical_matrix
 #' is_not_matrix
+#' @usage
+#' is_matrix(x)
+#' is_numeric_matrix(x)
+#' is_string_matrix(x)
+#' is_logical_matrix(x)
+#' is_not_matrix(x)
 #' @examples
 #' A = matrix(1:10, 5, 2)
 #' B = matrix(letters[1:10], 5, 2)

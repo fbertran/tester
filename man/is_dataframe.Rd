@@ -5,6 +5,13 @@
 \alias{is_numeric_dataframe}
 \alias{is_string_dataframe}
 \title{Is data frame}
+\usage{
+is_dataframe(x)
+is_numeric_dataframe(x)
+is_string_dataframe(x)
+is_factor_dataframe(x)
+is_not_dataframe(x)
+}
 \arguments{
   \item{x}{an R object}
 }

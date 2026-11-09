@@ -3,6 +3,11 @@
 \alias{list_with_string_vectors}
 \alias{list_with_vectors}
 \title{List with vectors}
+\usage{
+list_with_vectors(x)
+list_with_numeric_vectors(x)
+list_with_string_vectors(x)
+}
 \arguments{
   \item{x}{an R object}
 }

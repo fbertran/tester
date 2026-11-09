@@ -12,6 +12,12 @@
 #' is_logical_vector is_not_vector
 #' @export is_vector is_numeric_vector is_string_vector 
 #' is_logical_vector is_not_vector
+#' @usage
+#' is_vector(x)
+#' is_numeric_vector(x)
+#' is_string_vector(x)
+#' is_logical_vector(x)
+#' is_not_vector(x)
 #' @examples
 #' a = 1:10
 #' b = letters[1:10]

@@ -1,8 +1,8 @@
 Package: tester
 Type: Package
 Title: Tests and Checks Characteristics of R Objects
-Version: 0.3.0
-Date: 2025-09-20
+Version: 0.3.1
+Date: 2026-11-09
 Authors@R: c(
 	person(given = "Frederic", family= "Bertrand", role = c("cre"), email = "frederic.bertrand@lecnam.net", comment = c(ORCID = "0000-0002-0837-8281")),
 	person(given = "Gaston", family= "Sanchez", role = c("aut")))
@@ -13,8 +13,8 @@ Encoding: UTF-8
 LazyLoad: yes
 NeedsCompilation: no
 RoxygenNote: 7.2.3
-URL: https://fbertran.github.io/tester/, https://github.com/fbertran/tester/
-BugReports: https://github.com/fbertran/tester/issues/
+URL: https://fbertran.github.io/tester/, https://github.com/fbertran/tester
+BugReports: https://github.com/fbertran/tester/issues
 License: GPL-3
 Depends:
     R (>= 3.0)

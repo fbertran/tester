@@ -5,6 +5,13 @@
 \alias{is_string_vector}
 \alias{is_vector}
 \title{Is vector}
+\usage{
+is_vector(x)
+is_numeric_vector(x)
+is_string_vector(x)
+is_logical_vector(x)
+is_not_vector(x)
+}
 \arguments{
   \item{x}{an R object}
 }

@@ -11,6 +11,11 @@
 #' @name is_scalar
 #' @aliases is_scalar is_not_scalar is_positive_scalar is_negative_scalar
 #' @export is_scalar is_not_scalar is_positive_scalar is_negative_scalar
+#' @usage
+#' is_scalar(x)
+#' is_not_scalar(x)
+#' is_positive_scalar(x)
+#' is_negative_scalar(x)
 #' @examples
 #' is_scalar(1)  # TRUE
 #' is_scalar(pi)  # TRUE

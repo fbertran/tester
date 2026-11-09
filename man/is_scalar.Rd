@@ -4,6 +4,12 @@
 \alias{is_positive_scalar}
 \alias{is_scalar}
 \title{Is scalar}
+\usage{
+is_scalar(x)
+is_not_scalar(x)
+is_positive_scalar(x)
+is_negative_scalar(x)
+}
 \arguments{
   \item{x}{an R object}
 }

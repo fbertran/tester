@@ -3,6 +3,11 @@
 \alias{is_triangular_matrix}
 \alias{is_upper_triangular}
 \title{Is triangular matrix}
+\usage{
+is_lower_triangular(x, diag = FALSE)
+is_upper_triangular(x, diag = FALSE)
+is_triangular_matrix(x, diag = FALSE)
+}
 \arguments{
   \item{x}{a matrix}
 
